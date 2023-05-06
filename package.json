@@ -1,0 +1,22 @@
+{
+  "name": "@jmnuf/results",
+  "version": "1.0.0",
+  "description": "Result type similar to rust",
+  "main": "./dist/index.js",
+  "scripts": {
+		"prepublish": "pnpm build",
+    "build": "tsc",
+		"tsc": "tsc"
+  },
+	"files": [
+		"dist",
+		"README.md",
+		"LICENSE"
+	],
+  "keywords": [],
+  "author": "JM <jose.m.nufio.0@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

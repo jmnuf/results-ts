@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+		"outDir": "./dist/",
+    "declarationDir": "./dist/",
+    "declaration": true,
+    "declarationMap": true,
+    "inlineSourceMap": true,
+    "newLine": "lf",
+    "noEmitOnError": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true
+  },
+	"include": [
+		"src"
+	],
+	"exclude": [
+		"**/node_modules/**/*"
+	]
+}
