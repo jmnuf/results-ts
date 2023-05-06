@@ -4,19 +4,28 @@
   "description": "A typescript error or value discriminator",
   "main": "./dist/index.js",
   "scripts": {
-		"prepublish": "pnpm build",
+    "prepublish": "pnpm build",
     "build": "tsc",
-		"tsc": "tsc"
+    "tsc": "tsc"
   },
-	"files": [
-		"dist",
-		"README.md",
-		"LICENSE"
-	],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [],
   "author": "JM <jose.m.nufio.0@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.0.4"
-  }
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmnuf/results-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmnuf/results-ts/issues"
+  },
+  "homepage": "https://github.com/jmnuf/results-ts#readme"
 }
