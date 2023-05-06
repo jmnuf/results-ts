@@ -1,7 +1,7 @@
 {
   "name": "@jmnuf/results",
   "version": "1.0.0",
-  "description": "Result type similar to rust",
+  "description": "A typescript error or value discriminator",
   "main": "./dist/index.js",
   "scripts": {
 		"prepublish": "pnpm build",
