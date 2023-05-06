@@ -4,7 +4,7 @@
   "description": "A typescript error or value discriminator",
   "main": "./dist/index.js",
   "scripts": {
-    "prepublish": "pnpm build",
+    "prepublishOnly": "pnpm build",
     "build": "tsc",
     "tsc": "tsc"
   },
