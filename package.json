@@ -1,6 +1,6 @@
 {
   "name": "@jmnuf/results",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A typescript error or value discriminator",
   "main": "./dist/index.js",
   "scripts": {
